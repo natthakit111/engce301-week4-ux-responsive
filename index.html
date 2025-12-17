@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Dashboard – Big (ENGCE301 Week 4)</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+    <header class="site-header">
+        <div class="logo-area">
+            <h1>Task Dashboard</h1>
+            <p class="tagline">รวมงานเรียนและเดดไลน์ไว้ในหน้าเดียว</p>
+        </div>
+
+        <nav class="main-nav">
+        <a href="#today">วันนี้</a>
+        <a href="#tasks">งานของฉัน</a>
+        <a href="#extra">ข้อมูลอื่น ๆ</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: ภาพรวมวันนี้ / Overview -->
+        <section id="today" class="section section-today">
+            <header class="section-header">
+                <h2>ภาพรวมวันนี้ของบิ๊ก</h2>
+                <p class="section-subtitle">
+                    งานที่ต้องโฟกัสวันนี้ และเดดไลน์ที่ใกล้ที่สุด
+                </p>
+            </header>
+
+            <div class="cards-row">
+
+                <article class="card">
+                <h3>สรุปงานวันนี้</h3>
+                <p>งานที่ต้องทำวันนี้: 3 งาน</p>
+                <p>เดดไลน์ใกล้สุด: LAB ENGCE301 (คืนนี้)</p>
+
+                </article>
+
+                <article class="card">
+                <h3>ตารางเวลา</h3>
+                <p>13:00 – เรียน Network</p>
+                <p>19:00 – ทำ LAB HTML/CSS</p>
+
+                </article>
+
+                <article class="card">
+                <h3>ความคืบหน้า</h3>
+                <p>งานที่เสร็จสัปดาห์นี้: 4 งาน</p>
+                <p>ความคืบหน้าโดยรวม: 65%</p>
+
+                </article>
+            </div>
+        </section>
+
+
+        <section id="tasks" class="section section-tasks">
+            <header class="section-header">
+                <h2>งานที่ต้องทำ</h2>
+                <p class="section-subtitle">
+                    รายการงานและกิจกรรมที่ต้องจัดการในช่วงนี้
+                </p>
+            </header>
+
+            <div class="tasks-layout">
+                <div class="tasks-list">
+                    <h3>To-Do List</h3>
+                    <ul>
+                        <li>ส่งรายงาน LAB Week 4 (ENGCE301)</li>
+                        <li>ทบทวน Responsive Design</li>
+                        <li>เตรียมสอบ Quiz วิชา Network</li>
+
+                    </ul>
+                </div>
+
+                <div class="tasks-table-wrapper">
+                    <h3>ตารางงาน</h3>
+                    <table class="tasks-table">
+                        <thead>
+                            <tr>
+                                <th>งาน</th>
+                                <th>กำหนดส่ง</th>
+                                <th>สถานะ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>LAB ENGCE301 – UX & Responsive</td>
+                                <td>วันนี้ 23:59</td>
+                                <td><span class="status doing">กำลังทำ</span></td>
+                            </tr>
+                            <tr>
+                                <td>อ่านบท Network Layer</td>
+                                <td>พรุ่งนี้</td>
+                                <td><span class="status todo">ยังไม่เริ่ม</span></td>
+                            </tr>
+                            <tr>
+                                <td>ประชุมกลุ่มโปรเจกต์</td>
+                                <td>ศุกร์</td>
+                                <td><span class="status booked">จองเวลาแล้ว</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: ข้อมูลเสริม / Extra Info -->
+        <section id="extra" class="section section-extra">
+            <header class="section-header">
+                <h2>ข้อมูลอื่น ๆ ที่บิ๊กสนใจ</h2>
+                <p class="section-subtitle">
+                    ข้อมูลเสริมที่ช่วยให้จัดการงานได้ดีขึ้น
+                </p>
+            </header>
+
+            <div class="extra-layout">
+                <article class="card">
+                    <h3>สำหรับวันนี้</h3>
+                    <p>
+                        แบ่งงานใหญ่เป็นงานย่อย จะช่วยลดความเครียดและทำงานได้เร็วขึ้น
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>ลิงก์ที่ใช้บ่อย</h3>
+                    <ul class="links-list">
+                        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></li>
+                        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+
+        <p>สร้างเพื่อรายวิชา ENGCE301 – Week 4 LAB</p>
+    </footer>
+
+    <a href="#top" class="back-to-top">⬆ กลับขึ้นด้านบน</a>
+
+</body>
+</html>
